@@ -1,10 +1,14 @@
-//META{"name":"Titlebar","description":"Display a titlebar on top of the window.","author":"Beard_Design","version":"1.1.0"}*//{}
+//META{"name":"Titlebar","description":"Display a titlebar on top of the window.","author":"Beard_Design","version":"1.2.0"}*//{}
 
 /*-------------------made by Beard Design-------------------------*/
 
 .titlebar{
     background:#212121;
     height:35px!important;
+}
+
+.popout-bottom[style*="overflow: hidden; visibility: visible;"]{
+    top:92px!important;
 }
 
 .titlebar:after{
